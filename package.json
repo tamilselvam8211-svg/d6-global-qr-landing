@@ -1,0 +1,25 @@
+{
+  "name": "d6-global-qr-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "D6 Global Limited — QR services landing page (static React + Vite site).",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "qr": "node scripts/generate-qr.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.5",
+    "qrcode": "1.5.4",
+    "vite": "8.2.1"
+  }
+}
