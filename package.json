@@ -2,7 +2,7 @@
   "name": "d6-global-qr-landing",
   "private": true,
   "version": "1.0.0",
-  "description": "D6 Global Limited — QR services landing page (static React + Vite site).",
+  "description": "D6 Global Services — QR services landing page (static React + Vite site).",
   "type": "module",
   "engines": {
     "node": "^20.19.0 || >=22.12.0"

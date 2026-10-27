@@ -2,9 +2,10 @@ import { Fragment } from "react";
 import Icon from "./Icon";
 import { contact } from "../data/content";
 
-// Long addresses may only wrap after a "." or "@", never mid-word.
+// Long addresses may only wrap after a "." or "@" (never a leading "@", as
+// in an Instagram handle), never mid-word.
 const breakable = (text) =>
-  text.split(/(?<=[.@])/).map((part, i) => (
+  text.split(/(?<=.[.@])/).map((part, i) => (
     <Fragment key={i}>
       {i > 0 && <wbr />}
       {part}
@@ -24,7 +25,7 @@ const Contact = () => (
 
       <ul className="contact__list">
         {contact.links.map((l, i) => (
-          <li key={l.kind} className="reveal" style={{ "--reveal-delay": `${i * 80}ms` }}>
+          <li key={l.id} className="reveal" style={{ "--reveal-delay": `${i * 60}ms` }}>
             <a
               className="contact__item"
               href={l.href}

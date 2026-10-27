@@ -1,6 +1,6 @@
-# D6 Global Limited — QR Landing Page
+# D6 Global Services — QR Landing Page
 
-A standalone static landing page opened from the D6 Global Limited QR code:
+A standalone static landing page opened from the D6 Global Services QR code:
 company identity, the service ecosystem (Digital Marketing, Event Management,
 Business & Technology Solutions), the AuraWork showcase and contact links.
 
@@ -62,7 +62,7 @@ scripts/generate-qr.mjs    Print QR generator (refuses non-public/preview URLs)
 ```bash
 git init -b main
 git add .
-git commit -m "D6 Global Limited QR landing page"
+git commit -m "D6 Global Services QR landing page"
 git remote add origin https://github.com/<your-personal-username>/d6-global-qr-landing.git
 git push -u origin main
 ```

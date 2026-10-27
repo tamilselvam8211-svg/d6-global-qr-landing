@@ -44,6 +44,16 @@ const PATHS = {
       <path d="M7 12.5 10 9.5l2.5 2.5L17 7.5" />
     </>
   ),
+  phone: (
+    <path d="M5 3.5h3.2l1.6 4.2-2.1 1.4a11.5 11.5 0 0 0 7.2 7.2l1.4-2.1 4.2 1.6V19a1.5 1.5 0 0 1-1.6 1.5C10.6 20 4 13.4 3.5 5.1A1.5 1.5 0 0 1 5 3.5Z" />
+  ),
+  instagram: (
+    <>
+      <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.2" cy="6.8" r="0.9" fill="currentColor" stroke="none" />
+    </>
+  ),
   arrowDown: <path d="M12 5v14m0 0-5-5m5 5 5-5" />,
   arrowRight: <path d="M5 12h14m0 0-5-5m5 5-5 5" />,
   external: (

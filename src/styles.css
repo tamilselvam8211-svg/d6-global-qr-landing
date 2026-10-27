@@ -1,5 +1,5 @@
 /* ==========================================================
-   D6 Global Limited — QR landing page
+   D6 Global Services — QR landing page
    Midnight navy + warm white, restrained cyan accent, Inter.
    Mobile-first; text colour pairs meet WCAG AA contrast.
    ========================================================== */
@@ -847,10 +847,6 @@ button:focus-visible {
   .contact__list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
-  .contact__list li:last-child {
-    grid-column: 1 / -1;
-  }
 }
 
 /* ==========================================================
@@ -959,9 +955,6 @@ button:focus-visible {
     gap: 20px;
   }
 
-  .contact__list li:last-child {
-    grid-column: auto;
-  }
 
   /* icon above the text so addresses get the card's full width */
   .contact__item {

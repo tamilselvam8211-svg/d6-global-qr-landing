@@ -3,7 +3,7 @@ import Icon from "./Icon";
 import { company, ecosystem } from "../data/content";
 
 const divisionMailto = (title) =>
-  `mailto:${company.email}?subject=${encodeURIComponent(`Enquiry: ${title} — D6 Global Limited`)}`;
+  `mailto:${company.email}?subject=${encodeURIComponent(`Enquiry: ${title} — D6 Global Services`)}`;
 
 // Company node -> trunk -> rail -> three division branches. The connector
 // lines are drawn with CSS in the gutters around the panels, so they never
